@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: freesia;
+  src: url(../font/freesia.otf);
+}
+body {
+  font-family: freesia;
+  background-color: rgba(54, 71, 88, 1);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 355px;
+  margin: 0 auto;
+}
+main {
+  margin-top: 50px;
+  padding-top: 30px;
+  width: 444px;
+  height: 535px;
+  background-color: rgba(54, 71, 89, 1);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* ============= Header ============= */
+.header {
+  text-align: center;
+}
+.header a {
+    font-size: 32px;
+  text-decoration: none;
+  color: white;
+}
+.header p {
+  
+  font-size: 36px;
+  margin: 10px 0 10px 0;
+  text-decoration: none;
+  color: white;
+}
+
+/* ============= Input ============= */
+input.text {
+    width: 355px;
+    height: 50px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    outline: none;
+    background: rgba(54, 71, 89, 1);
+    color: rgb(248, 248, 248);
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+/* ============= Button ============= */
+.button {
+    margin-top: 50px;
+    justify-self: space-between;
+}
+.button a {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgba(189, 211, 255, 0.8);
+}
+.btn {
+    width: 86px;
+    height: 35px;
+    color: rgba(54, 71, 89, 1);
+    background-color: rgba(189, 211, 255, 0.9);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 174px;
+}
+.btn:hover {
+    background-color: rgba(189, 211, 255, 0.6);
+}
+
+/*         แจ้งเตือน      */
+
+
+.error {
+  width: 92%;
+  height: 70px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+.success {
+  color: #3c763d;
+  background: #dff9d8;
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+
